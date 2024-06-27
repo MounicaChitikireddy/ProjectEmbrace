@@ -1,0 +1,71 @@
+.user-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
+
+  li {
+    padding-bottom: 2.5vh;
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
+
+  .card {
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: "0 5px 22px 0 rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.06)";
+    margin: auto;
+    margin-block: 20px;
+
+    .card-header {
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      padding: 32px 24px 16px;
+    }
+
+    .card-content {
+      padding: 16px 24px 24px;
+      display: flex;
+      flex-direction: column;
+
+      .MuiFormControl-root {
+        margin-block: 5px;
+      }
+
+      .table-switch {
+        label {
+          margin: 0px;
+        }
+      }
+
+      .avatar-container {
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+
+        .avatar-inputs {
+          display: flex;
+          flex-direction: column;
+          margin-right: 20px;
+          width: 100%;
+        }
+
+        .avatar-preview {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          align-content: center;
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}

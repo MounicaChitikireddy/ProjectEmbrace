@@ -1,0 +1,17 @@
+.import-export-buttons {
+  .MuiButtonBase-root {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.delete-selected-rows-container {
+  display: flex;
+  padding-inline: 10px;
+}
+
+.selected-rows {
+  display: flex;
+  align-items: center;
+  padding-inline: 10px;
+}

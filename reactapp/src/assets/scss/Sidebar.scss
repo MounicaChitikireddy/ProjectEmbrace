@@ -1,0 +1,11 @@
+$header-color: gray;
+$link-color: darkred;
+
+.sidebar-head {
+    color: $header-color;
+    padding: 0 1rem;
+}
+
+.sidebar-link {
+    color: $link-color;
+}

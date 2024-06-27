@@ -1,0 +1,53 @@
+.item-row {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  flex-direction: row;
+
+  .item-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+    @media screen and (max-width: 450px) {
+      flex-direction: column;
+    }
+
+    .item-input {
+      margin-block: 5px;
+    }
+
+    .small-input-container {
+      display: flex;
+
+      .small-item-input {
+        padding-inline: 10px;
+        margin-block: 5px;
+        text-align: left;
+        width: 100px;
+      }
+    }
+
+    .forward-icon {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .old-data {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .upgrade-inputs {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.item-button-container {
+  display: flex !important;
+  justify-content: center;
+}
+
+.item-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+
+  .item-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+
+  .small-input-container {
+    display: flex;
+    .small-item-input {
+      padding-inline: 10px;
+      margin-block: 5px;
+      text-align: left;
+      width: 100px;
+    }
+  }
+
+  .contact-input {
+    padding-inline: 10px;
+    margin-block: 5px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .item-input {
+    padding-inline: 10px;
+    margin-block: 5px;
+    text-align: left;
+    min-width: 250px;
+    width: calc(100% - 300px);
+  }
+}
+
+.dialog-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

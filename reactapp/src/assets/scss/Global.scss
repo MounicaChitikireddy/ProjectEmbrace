@@ -1,0 +1,18 @@
+$primary-color: darkred;
+
+
+html {
+    overflow-x: hidden;
+
+    #root {
+
+        .crud-btn {
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        header {
+            background-color: $primary-color;
+        }
+    }
+}

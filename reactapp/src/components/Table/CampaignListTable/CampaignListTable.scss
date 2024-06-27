@@ -1,0 +1,17 @@
+.create-button {
+  width: 100%;
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: flex-end;
+}
+
+.delete-selected-rows-container {
+  display: flex;
+  padding-inline: 10px;
+}
+
+.selected-rows {
+  display: flex;
+  align-items: center;
+  padding-inline: 10px;
+}

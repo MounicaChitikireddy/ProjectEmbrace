@@ -1,0 +1,25 @@
+$text-color: black;
+
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+    h1 {
+        color: $text-color;
+        font-size: 2.5rem;
+    }
+
+    img {
+        height: 40vh;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
