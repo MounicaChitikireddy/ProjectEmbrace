@@ -11,7 +11,10 @@ export const options = {
     title: "Device Count By Grade",
     is3D: true,
 };
-export default function CampaignGradeGraph({ id }) {
+type CampaignGradeGraphProps = {
+    id: string;
+}
+export default function CampaignGradeGraph({ id }: CampaignGradeGraphProps) {
     const [data, setData] = useState<GradeCount[]>([]);
     const [dataLoaded, setDataLoaded] = useState(false);
     const [isRefetching, setIsRefetching] = useState(true);

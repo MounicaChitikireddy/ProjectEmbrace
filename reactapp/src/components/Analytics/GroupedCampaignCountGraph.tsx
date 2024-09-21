@@ -23,7 +23,10 @@ export const options = {
         easing: 'out'
     },
 };
-export default function CampaignCountGraph({ id }) {
+type CampaignCountGrapjProps = {
+    id: string;
+}
+export default function CampaignCountGraph({ id }: CampaignCountGrapjProps) {
     const [data, setData] = useState<DeviceCount[]>([]);
     const [dataLoaded, setDataLoaded] = useState(false);
     const [isRefetching, setIsRefetching] = useState(true);
